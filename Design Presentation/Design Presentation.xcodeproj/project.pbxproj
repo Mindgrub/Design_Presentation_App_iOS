@@ -28,6 +28,11 @@
 		80486D5918CCB15B0000096D /* MGTStretchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80486D5818CCB15B0000096D /* MGTStretchingViewController.m */; };
 		80486D5D18CCB1A00000096D /* MGTCustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80486D5C18CCB1A00000096D /* MGTCustomLayoutViewController.m */; };
 		80486D6218CCB2040000096D /* MGTStatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80486D6118CCB2040000096D /* MGTStatesViewController.m */; };
+		80486D6718CCDEE70000096D /* UIColor+DesignHandoff.m in Sources */ = {isa = PBXBuildFile; fileRef = 80486D6618CCDEE70000096D /* UIColor+DesignHandoff.m */; };
+		80486D6A18CCDEF30000096D /* UIFont+DesignHandoff.m in Sources */ = {isa = PBXBuildFile; fileRef = 80486D6918CCDEF30000096D /* UIFont+DesignHandoff.m */; };
+		80486D6E18CCDF710000096D /* CAFETA_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 80486D6C18CCDF710000096D /* CAFETA_.TTF */; };
+		80486D6F18CCDF710000096D /* Enigma_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 80486D6D18CCDF710000096D /* Enigma_.TTF */; };
+		80486D7118CCDF870000096D /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80486D7018CCDF870000096D /* MyriadPro-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +79,13 @@
 		80486D5C18CCB1A00000096D /* MGTCustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTCustomLayoutViewController.m; sourceTree = "<group>"; };
 		80486D6018CCB2040000096D /* MGTStatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTStatesViewController.h; sourceTree = "<group>"; };
 		80486D6118CCB2040000096D /* MGTStatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTStatesViewController.m; sourceTree = "<group>"; };
+		80486D6518CCDEE70000096D /* UIColor+DesignHandoff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DesignHandoff.h"; sourceTree = "<group>"; };
+		80486D6618CCDEE70000096D /* UIColor+DesignHandoff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DesignHandoff.m"; sourceTree = "<group>"; };
+		80486D6818CCDEF30000096D /* UIFont+DesignHandoff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DesignHandoff.h"; sourceTree = "<group>"; };
+		80486D6918CCDEF30000096D /* UIFont+DesignHandoff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DesignHandoff.m"; sourceTree = "<group>"; };
+		80486D6C18CCDF710000096D /* CAFETA_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = CAFETA_.TTF; sourceTree = "<group>"; };
+		80486D6D18CCDF710000096D /* Enigma_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Enigma_.TTF; sourceTree = "<group>"; };
+		80486D7018CCDF870000096D /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +145,7 @@
 		80486D1718CCAA0D0000096D /* Design Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				80486D6318CCDECE0000096D /* Model */,
 				80486D5E18CCB1AC0000096D /* Controller */,
 				80486D2018CCAA0D0000096D /* MGTAppDelegate.h */,
 				80486D2118CCAA0D0000096D /* MGTAppDelegate.m */,
@@ -147,6 +160,7 @@
 		80486D1818CCAA0D0000096D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80486D6B18CCDF570000096D /* Fonts */,
 				80486D1918CCAA0D0000096D /* Design Presentation-Info.plist */,
 				80486D1A18CCAA0D0000096D /* InfoPlist.strings */,
 				80486D1D18CCAA0D0000096D /* main.m */,
@@ -251,6 +265,35 @@
 			name = States;
 			sourceTree = "<group>";
 		};
+		80486D6318CCDECE0000096D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80486D6418CCDED40000096D /* Extensions */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80486D6418CCDED40000096D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80486D6518CCDEE70000096D /* UIColor+DesignHandoff.h */,
+				80486D6618CCDEE70000096D /* UIColor+DesignHandoff.m */,
+				80486D6818CCDEF30000096D /* UIFont+DesignHandoff.h */,
+				80486D6918CCDEF30000096D /* UIFont+DesignHandoff.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		80486D6B18CCDF570000096D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				80486D7018CCDF870000096D /* MyriadPro-Regular.otf */,
+				80486D6C18CCDF710000096D /* CAFETA_.TTF */,
+				80486D6D18CCDF710000096D /* Enigma_.TTF */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -327,8 +370,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80486D7118CCDF870000096D /* MyriadPro-Regular.otf in Resources */,
 				80486D4118CCAA3B0000096D /* Main.storyboard in Resources */,
 				80486D1C18CCAA0D0000096D /* InfoPlist.strings in Resources */,
+				80486D6F18CCDF710000096D /* Enigma_.TTF in Resources */,
+				80486D6E18CCDF710000096D /* CAFETA_.TTF in Resources */,
 				80486D2418CCAA0D0000096D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80486D1E18CCAA0D0000096D /* main.m in Sources */,
+				80486D6718CCDEE70000096D /* UIColor+DesignHandoff.m in Sources */,
 				80486D5118CCB0F40000096D /* MGTGradientViewController.m in Sources */,
 				80486D5918CCB15B0000096D /* MGTStretchingViewController.m in Sources */,
 				80486D4D18CCB07B0000096D /* MGTTextViewController.m in Sources */,
@@ -356,6 +403,7 @@
 				80486D4A18CCB0320000096D /* MGTColorViewController.m in Sources */,
 				80486D5D18CCB1A00000096D /* MGTCustomLayoutViewController.m in Sources */,
 				80486D6218CCB2040000096D /* MGTStatesViewController.m in Sources */,
+				80486D6A18CCDEF30000096D /* UIFont+DesignHandoff.m in Sources */,
 				80486D4418CCAB340000096D /* MGTMainViewController.m in Sources */,
 				80486D2218CCAA0D0000096D /* MGTAppDelegate.m in Sources */,
 			);
