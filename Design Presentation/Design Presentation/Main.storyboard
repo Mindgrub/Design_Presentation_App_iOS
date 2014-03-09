@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rOt-h8-fsX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="fC5-Td-lg7">
+            <objects>
+                <viewController id="o8Y-8F-kcp" customClass="MGTMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iJY-zr-RYo"/>
+                        <viewControllerLayoutGuide type="bottom" id="hQB-z7-7sQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xP7-Vd-tg8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dNa-JY-Z6p">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="o8Y-8F-kcp" id="V2I-Yh-V4l"/>
+                                    <outlet property="delegate" destination="o8Y-8F-kcp" id="BCi-kG-XFA"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dNa-JY-Z6p" secondAttribute="trailing" id="cHV-vZ-ad9"/>
+                            <constraint firstItem="dNa-JY-Z6p" firstAttribute="leading" secondItem="xP7-Vd-tg8" secondAttribute="leading" id="elx-JE-lWd"/>
+                            <constraint firstItem="hQB-z7-7sQ" firstAttribute="top" secondItem="dNa-JY-Z6p" secondAttribute="bottom" id="mcW-Ta-GRC"/>
+                            <constraint firstItem="dNa-JY-Z6p" firstAttribute="top" secondItem="xP7-Vd-tg8" secondAttribute="top" id="nvq-Jf-78j"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iFl-1r-EyX"/>
+                    <connections>
+                        <segue destination="8wm-yE-M3j" kind="push" identifier="Colors" id="gcN-Uy-4l8"/>
+                        <segue destination="1c8-OZ-jek" kind="push" identifier="Text/Fonts" id="utw-HL-GHZ"/>
+                        <segue destination="r9v-5d-qMZ" kind="push" identifier="Gradients" id="YW3-57-YzG"/>
+                        <segue destination="mZZ-0y-KXL" kind="push" identifier="Custom Drawing" id="p4A-Ah-spq"/>
+                        <segue destination="x1K-MQ-qkl" kind="push" identifier="Stretching" id="c6H-k2-A2e"/>
+                        <segue destination="i2c-JF-tJJ" kind="push" identifier="Custom Layout" id="Luw-Mm-UbF"/>
+                        <segue destination="pBp-w9-6oU" kind="push" identifier="States" id="qRD-Zt-Iu4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DhK-RZ-quz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="47"/>
+        </scene>
+        <!--Text View Controller-->
+        <scene sceneID="Tlb-H1-V2F">
+            <objects>
+                <viewController id="1c8-OZ-jek" customClass="MGTTextViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OoX-ZG-wEe"/>
+                        <viewControllerLayoutGuide type="bottom" id="UFa-Cq-4t5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a89-Ia-Y55">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Font/Text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRK-qx-zex">
+                                <rect key="frame" x="132" y="261" width="72" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XHU-Ap-IQU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVe-tz-PjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1056" y="888"/>
+        </scene>
+        <!--Gradient View Controller-->
+        <scene sceneID="TYH-HR-5Mb">
+            <objects>
+                <viewController id="r9v-5d-qMZ" customClass="MGTGradientViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V2Z-iw-4WE"/>
+                        <viewControllerLayoutGuide type="bottom" id="RUC-rk-abM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TTY-JD-DCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gradients" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9b-Oz-B83">
+                                <rect key="frame" x="139" y="273" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8KF-jw-06e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UKG-XY-9Yz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-648" y="888"/>
+        </scene>
+        <!--Custom Drawing View Controller-->
+        <scene sceneID="WqP-RO-foH">
+            <objects>
+                <viewController id="mZZ-0y-KXL" customClass="MGTCustomDrawingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gS9-EM-Mlf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rc6-f1-yqU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GVM-Rq-KWX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Custom Drawing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcJ-cG-VNJ">
+                                <rect key="frame" x="106" y="281" width="129" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fXJ-SO-deJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bo9-np-DWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-240" y="888"/>
+        </scene>
+        <!--Stretching View Controller-->
+        <scene sceneID="EX6-xu-Gw2">
+            <objects>
+                <viewController id="x1K-MQ-qkl" customClass="MGTStretchingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="coG-BJ-VtS"/>
+                        <viewControllerLayoutGuide type="bottom" id="a3j-gu-Kps"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bSW-5X-moT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stretching" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8z-DC-ej1">
+                                <rect key="frame" x="126" y="263" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UJj-LF-A2Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wgo-Bj-Ylv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="947"/>
+        </scene>
+        <!--Custom Layout View Controller-->
+        <scene sceneID="c8f-KK-h5d">
+            <objects>
+                <viewController id="i2c-JF-tJJ" customClass="MGTCustomLayoutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xNC-iz-Ce2"/>
+                        <viewControllerLayoutGuide type="bottom" id="JRN-Xb-yQi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cww-Ju-bep">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Custom Layout" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXh-xf-9PE">
+                                <rect key="frame" x="108" y="254" width="118" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ub3-kO-ihe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OP7-hL-8i2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1476" y="880"/>
+        </scene>
+        <!--States View Controller-->
+        <scene sceneID="mbL-L4-cpl">
+            <objects>
+                <viewController id="pBp-w9-6oU" customClass="MGTStatesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bpf-UJ-7uy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ey4-lQ-dTk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lbK-o9-Aa6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="States" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3We-jb-aDj">
+                                <rect key="frame" x="134" y="273" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cRS-Cw-lYh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2rp-gd-7pt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="876"/>
+        </scene>
+        <!--Color View Controller-->
+        <scene sceneID="Ecb-Hw-gLl">
+            <objects>
+                <viewController id="8wm-yE-M3j" customClass="MGTColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="An0-Db-zvu"/>
+                        <viewControllerLayoutGuide type="bottom" id="uAw-2y-Ute"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8tY-9c-EB1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCZ-Ib-iF0">
+                                <rect key="frame" x="123" y="225" width="51" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XPt-vI-RbN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pvj-Qv-GGG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1476" y="900"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qFH-OQ-kjj">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="rOt-h8-fsX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dZd-4a-kAa">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="o8Y-8F-kcp" kind="relationship" relationship="rootViewController" id="yl2-bu-3tK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g3c-5D-b7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="-809"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
