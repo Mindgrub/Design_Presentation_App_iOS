@@ -28,7 +28,27 @@
     [super viewDidLoad];
     
     self.title = @"Gradients";
-	// Do any additional setup after loading the view.
+	
+    //Demo Code
+    
+    UIColor *colorOne = [UIColor blackColor];
+    UIColor *colorTwo = [UIColor redColor];
+    
+    NSArray *colors = [NSArray arrayWithObjects:(id)colorOne.CGColor, colorTwo.CGColor, nil];
+    NSNumber *stopOne = [NSNumber numberWithFloat:0.0];
+    NSNumber *stopTwo = [NSNumber numberWithFloat:1.0];
+    
+    NSArray *locations = [NSArray arrayWithObjects:stopOne, stopTwo, nil];
+    
+    CAGradientLayer *headerLayer = [CAGradientLayer layer];
+    headerLayer.colors = colors;
+    headerLayer.locations = locations;
+    
+    
+    headerLayer.frame = self.view.frame;
+    [self.view.layer insertSublayer:headerLayer atIndex:0];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

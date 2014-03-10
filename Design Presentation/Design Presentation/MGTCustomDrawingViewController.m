@@ -7,6 +7,7 @@
 //
 
 #import "MGTCustomDrawingViewController.h"
+#import "MGTCircle.h"
 
 @interface MGTCustomDrawingViewController ()
 
@@ -28,7 +29,10 @@
     [super viewDidLoad];
     
     self.title = @"Custom Drawing";
-	// Do any additional setup after loading the view.
+	MGTCircle *circle = [[MGTCircle alloc] init];
+    circle.frame = CGRectMake((self.view.frame.size.width - 100) / 2, (self.view.frame.size.height - 100) / 2, 100, 100);
+    
+    [self.view addSubview:circle];
 }
 
 - (void)didReceiveMemoryWarning

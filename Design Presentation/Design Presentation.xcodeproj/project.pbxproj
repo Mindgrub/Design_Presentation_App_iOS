@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A89A7018CDF6F20029C58F /* MGTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A89A6F18CDF6F20029C58F /* MGTCircle.m */; };
 		80486D1218CCAA0D0000096D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1118CCAA0D0000096D /* Foundation.framework */; };
 		80486D1418CCAA0D0000096D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1318CCAA0D0000096D /* CoreGraphics.framework */; };
 		80486D1618CCAA0D0000096D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1518CCAA0D0000096D /* UIKit.framework */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36A89A6E18CDF6F20029C58F /* MGTCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTCircle.h; sourceTree = "<group>"; };
+		36A89A6F18CDF6F20029C58F /* MGTCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTCircle.m; sourceTree = "<group>"; };
 		80486D0E18CCAA0D0000096D /* Design Presentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Presentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80486D1118CCAA0D0000096D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80486D1318CCAA0D0000096D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -220,6 +223,8 @@
 			children = (
 				80486D5318CCB1120000096D /* MGTCustomDrawingViewController.h */,
 				80486D5418CCB1120000096D /* MGTCustomDrawingViewController.m */,
+				36A89A6E18CDF6F20029C58F /* MGTCircle.h */,
+				36A89A6F18CDF6F20029C58F /* MGTCircle.m */,
 			);
 			name = "Custom Drawing";
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				80486D1E18CCAA0D0000096D /* main.m in Sources */,
 				80486D6718CCDEE70000096D /* UIColor+DesignHandoff.m in Sources */,
 				80486D5118CCB0F40000096D /* MGTGradientViewController.m in Sources */,
+				36A89A7018CDF6F20029C58F /* MGTCircle.m in Sources */,
 				80486D5918CCB15B0000096D /* MGTStretchingViewController.m in Sources */,
 				80486D4D18CCB07B0000096D /* MGTTextViewController.m in Sources */,
 				80486D5518CCB1120000096D /* MGTCustomDrawingViewController.m in Sources */,
@@ -610,6 +616,7 @@
 				80486D3C18CCAA0D0000096D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80486D3D18CCAA0D0000096D /* Build configuration list for PBXNativeTarget "Design PresentationTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +625,7 @@
 				80486D3F18CCAA0D0000096D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
