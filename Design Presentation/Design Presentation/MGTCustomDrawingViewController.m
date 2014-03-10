@@ -7,6 +7,7 @@
 //
 
 #import "MGTCustomDrawingViewController.h"
+#import "PageControl.h"
 #import "MGTCircle.h"
 
 @interface MGTCustomDrawingViewController ()
@@ -33,6 +34,14 @@
     circle.frame = CGRectMake((self.view.frame.size.width - 100) / 2, (self.view.frame.size.height - 100) / 2, 100, 100);
     
     [self.view addSubview:circle];
+    
+    
+    PageControl *pageControl = [[PageControl alloc] initWithFrame:CGRectMake(0, 140, 320, 20)];
+    pageControl.numberOfPages = 5;
+    pageControl.currentPage = 0;
+    
+    [self.view addSubview:pageControl];
+    
 }
 
 - (void)didReceiveMemoryWarning

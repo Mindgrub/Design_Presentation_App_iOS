@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36A89A7018CDF6F20029C58F /* MGTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A89A6F18CDF6F20029C58F /* MGTCircle.m */; };
+		36A89A7318CDF9550029C58F /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A89A7218CDF9550029C58F /* PageControl.m */; };
 		80486D1218CCAA0D0000096D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1118CCAA0D0000096D /* Foundation.framework */; };
 		80486D1418CCAA0D0000096D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1318CCAA0D0000096D /* CoreGraphics.framework */; };
 		80486D1618CCAA0D0000096D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1518CCAA0D0000096D /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		36A89A6E18CDF6F20029C58F /* MGTCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTCircle.h; sourceTree = "<group>"; };
 		36A89A6F18CDF6F20029C58F /* MGTCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTCircle.m; sourceTree = "<group>"; };
+		36A89A7118CDF9550029C58F /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		36A89A7218CDF9550029C58F /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
 		80486D0E18CCAA0D0000096D /* Design Presentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Presentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80486D1118CCAA0D0000096D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80486D1318CCAA0D0000096D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -221,6 +224,8 @@
 		80486D5218CCB1000000096D /* Custom Drawing */ = {
 			isa = PBXGroup;
 			children = (
+				36A89A7118CDF9550029C58F /* PageControl.h */,
+				36A89A7218CDF9550029C58F /* PageControl.m */,
 				80486D5318CCB1120000096D /* MGTCustomDrawingViewController.h */,
 				80486D5418CCB1120000096D /* MGTCustomDrawingViewController.m */,
 				36A89A6E18CDF6F20029C58F /* MGTCircle.h */,
@@ -409,6 +414,7 @@
 				80486D4A18CCB0320000096D /* MGTColorViewController.m in Sources */,
 				80486D5D18CCB1A00000096D /* MGTCustomLayoutViewController.m in Sources */,
 				80486D6218CCB2040000096D /* MGTStatesViewController.m in Sources */,
+				36A89A7318CDF9550029C58F /* PageControl.m in Sources */,
 				80486D6A18CCDEF30000096D /* UIFont+DesignHandoff.m in Sources */,
 				80486D4418CCAB340000096D /* MGTMainViewController.m in Sources */,
 				80486D2218CCAA0D0000096D /* MGTAppDelegate.m in Sources */,
