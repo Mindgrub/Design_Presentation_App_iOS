@@ -10,5 +10,8 @@
 
 @interface UIColor (DesignHandoff)
 
++ (UIColor *)customOrangeColor;
++ (UIColor *)customRedColor;
++ (UIColor *)customGreenColor;
 
 @end

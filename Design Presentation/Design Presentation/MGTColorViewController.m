@@ -7,6 +7,7 @@
 //
 
 #import "MGTColorViewController.h"
+#import "UIColor+DesignHandoff.h"
 
 @interface MGTColorViewController ()
 
@@ -28,7 +29,10 @@
     [super viewDidLoad];
     
     self.title = @"Colors";
-	// Do any additional setup after loading the view.
+	
+    self.orangeLabel.textColor = [UIColor customOrangeColor];
+    self.redLabel.textColor = [UIColor customRedColor];
+    self.greenLabel.textColor = [UIColor customGreenColor];
 }
 
 - (void)didReceiveMemoryWarning

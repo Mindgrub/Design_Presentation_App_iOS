@@ -10,4 +10,8 @@
 
 @interface MGTColorViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *orangeLabel;
+@property (nonatomic, weak) IBOutlet UILabel *redLabel;
+@property (nonatomic, weak) IBOutlet UILabel *greenLabel;
+
 @end
