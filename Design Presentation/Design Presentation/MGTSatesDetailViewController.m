@@ -29,12 +29,12 @@
                                      forState:UIControlStateSelected];
     [self.buttonCustom setBackgroundImage:[UIImage imageNamed:@"StateButtonDisabled"]
                                  forState:UIControlStateSelected|UIControlStateDisabled];
-    [self.buttonCustom setBackgroundImage:[UIImage imageNamed:@"StateButtonSelected"]
-                                 forState:UIControlStateSelected|UIControlStateHighlighted];
     [self.buttonCustom setBackgroundImage:[UIImage imageNamed:@"StateButtonHighlighted"]
                                      forState:UIControlStateHighlighted];
     [self.buttonCustom setBackgroundImage:[UIImage imageNamed:@"StateButtonDisabled"]
                                  forState:UIControlStateDisabled];
+    [self.buttonCustom setBackgroundImage:[UIImage imageNamed:@"StateButtonSelectedPressed"]
+                                 forState:UIControlStateSelected|UIControlStateHighlighted];
     [self.buttonCustom setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
 }
 

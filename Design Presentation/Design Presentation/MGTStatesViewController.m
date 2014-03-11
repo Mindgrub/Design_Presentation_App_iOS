@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, StatesSelectionStyle) {
     self.title = @"States";
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    [self configureSegmentControl];
+   // [self configureSegmentControl];
 }
 
 - (void)configureSegmentControl
