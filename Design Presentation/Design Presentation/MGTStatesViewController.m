@@ -70,7 +70,7 @@ typedef NS_ENUM(NSInteger, StatesSelectionStyle) {
 {
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"cell"];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Row # %d", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"Row # %ld", indexPath.row];
     
     switch (self.selectionStyle)
     {
