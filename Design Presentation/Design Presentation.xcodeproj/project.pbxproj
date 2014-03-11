@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		36A89A7018CDF6F20029C58F /* MGTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A89A6F18CDF6F20029C58F /* MGTCircle.m */; };
 		36A89A7318CDF9550029C58F /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A89A7218CDF9550029C58F /* PageControl.m */; };
+		7474797D18CEA7B30041C0ED /* tab_desel_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797518CEA7B30041C0ED /* tab_desel_sel.png */; };
+		7474797E18CEA7B30041C0ED /* tab_desel_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797618CEA7B30041C0ED /* tab_desel_sel@2x.png */; };
+		7474797F18CEA7B30041C0ED /* tab_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797718CEA7B30041C0ED /* tab_deselected.png */; };
+		7474798018CEA7B30041C0ED /* tab_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797818CEA7B30041C0ED /* tab_deselected@2x.png */; };
+		7474798118CEA7B30041C0ED /* tab_segment_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797918CEA7B30041C0ED /* tab_segment_selected.png */; };
+		7474798218CEA7B30041C0ED /* tab_segment_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797A18CEA7B30041C0ED /* tab_segment_selected@2x.png */; };
+		7474798318CEA7B30041C0ED /* tab_sel_desel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797B18CEA7B30041C0ED /* tab_sel_desel.png */; };
+		7474798418CEA7B30041C0ED /* tab_sel_desel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7474797C18CEA7B30041C0ED /* tab_sel_desel@2x.png */; };
+		7474798718CEB03C0041C0ED /* MGTSatesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7474798618CEB03C0041C0ED /* MGTSatesDetailViewController.m */; };
 		80486D1218CCAA0D0000096D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1118CCAA0D0000096D /* Foundation.framework */; };
 		80486D1418CCAA0D0000096D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1318CCAA0D0000096D /* CoreGraphics.framework */; };
 		80486D1618CCAA0D0000096D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80486D1518CCAA0D0000096D /* UIKit.framework */; };
@@ -52,6 +61,16 @@
 		36A89A6F18CDF6F20029C58F /* MGTCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTCircle.m; sourceTree = "<group>"; };
 		36A89A7118CDF9550029C58F /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
 		36A89A7218CDF9550029C58F /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
+		7474797518CEA7B30041C0ED /* tab_desel_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_desel_sel.png; sourceTree = "<group>"; };
+		7474797618CEA7B30041C0ED /* tab_desel_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_desel_sel@2x.png"; sourceTree = "<group>"; };
+		7474797718CEA7B30041C0ED /* tab_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_deselected.png; sourceTree = "<group>"; };
+		7474797818CEA7B30041C0ED /* tab_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_deselected@2x.png"; sourceTree = "<group>"; };
+		7474797918CEA7B30041C0ED /* tab_segment_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_segment_selected.png; sourceTree = "<group>"; };
+		7474797A18CEA7B30041C0ED /* tab_segment_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_segment_selected@2x.png"; sourceTree = "<group>"; };
+		7474797B18CEA7B30041C0ED /* tab_sel_desel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sel_desel.png; sourceTree = "<group>"; };
+		7474797C18CEA7B30041C0ED /* tab_sel_desel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sel_desel@2x.png"; sourceTree = "<group>"; };
+		7474798518CEB03C0041C0ED /* MGTSatesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTSatesDetailViewController.h; sourceTree = "<group>"; };
+		7474798618CEB03C0041C0ED /* MGTSatesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTSatesDetailViewController.m; sourceTree = "<group>"; };
 		80486D0E18CCAA0D0000096D /* Design Presentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Presentation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80486D1118CCAA0D0000096D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80486D1318CCAA0D0000096D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +137,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7474797418CEA7B30041C0ED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7474797518CEA7B30041C0ED /* tab_desel_sel.png */,
+				7474797618CEA7B30041C0ED /* tab_desel_sel@2x.png */,
+				7474797718CEA7B30041C0ED /* tab_deselected.png */,
+				7474797818CEA7B30041C0ED /* tab_deselected@2x.png */,
+				7474797918CEA7B30041C0ED /* tab_segment_selected.png */,
+				7474797A18CEA7B30041C0ED /* tab_segment_selected@2x.png */,
+				7474797B18CEA7B30041C0ED /* tab_sel_desel.png */,
+				7474797C18CEA7B30041C0ED /* tab_sel_desel@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		80486D0518CCAA0D0000096D = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +200,7 @@
 		80486D1818CCAA0D0000096D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7474797418CEA7B30041C0ED /* images */,
 				80486D6B18CCDF570000096D /* Fonts */,
 				80486D1918CCAA0D0000096D /* Design Presentation-Info.plist */,
 				80486D1A18CCAA0D0000096D /* InfoPlist.strings */,
@@ -271,6 +306,8 @@
 			children = (
 				80486D6018CCB2040000096D /* MGTStatesViewController.h */,
 				80486D6118CCB2040000096D /* MGTStatesViewController.m */,
+				7474798518CEB03C0041C0ED /* MGTSatesDetailViewController.h */,
+				7474798618CEB03C0041C0ED /* MGTSatesDetailViewController.m */,
 			);
 			name = States;
 			sourceTree = "<group>";
@@ -380,12 +417,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7474798018CEA7B30041C0ED /* tab_deselected@2x.png in Resources */,
 				80486D7118CCDF870000096D /* MyriadPro-Regular.otf in Resources */,
+				7474797D18CEA7B30041C0ED /* tab_desel_sel.png in Resources */,
+				7474797F18CEA7B30041C0ED /* tab_deselected.png in Resources */,
 				80486D4118CCAA3B0000096D /* Main.storyboard in Resources */,
+				7474798218CEA7B30041C0ED /* tab_segment_selected@2x.png in Resources */,
 				80486D1C18CCAA0D0000096D /* InfoPlist.strings in Resources */,
 				80486D6F18CCDF710000096D /* Enigma_.TTF in Resources */,
+				7474798318CEA7B30041C0ED /* tab_sel_desel.png in Resources */,
+				7474798118CEA7B30041C0ED /* tab_segment_selected.png in Resources */,
 				80486D6E18CCDF710000096D /* CAFETA_.TTF in Resources */,
 				80486D2418CCAA0D0000096D /* Images.xcassets in Resources */,
+				7474797E18CEA7B30041C0ED /* tab_desel_sel@2x.png in Resources */,
+				7474798418CEA7B30041C0ED /* tab_sel_desel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +453,7 @@
 				80486D6718CCDEE70000096D /* UIColor+DesignHandoff.m in Sources */,
 				80486D5118CCB0F40000096D /* MGTGradientViewController.m in Sources */,
 				36A89A7018CDF6F20029C58F /* MGTCircle.m in Sources */,
+				7474798718CEB03C0041C0ED /* MGTSatesDetailViewController.m in Sources */,
 				80486D5918CCB15B0000096D /* MGTStretchingViewController.m in Sources */,
 				80486D4D18CCB07B0000096D /* MGTTextViewController.m in Sources */,
 				80486D5518CCB1120000096D /* MGTCustomDrawingViewController.m in Sources */,
